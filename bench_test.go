@@ -1,4 +1,4 @@
-package gokeys
+package gomapkeys
 
 import (
 	"fmt"
@@ -42,7 +42,7 @@ func BenchmarkGetKeysWithoutPreAllocate(b *testing.B) {
 	}
 }
 
-// Benchmark for the Godash wrapper
+// Benchmark for the Lo wrapper
 func BenchmarkGetKeysWithLo(b *testing.B) {
 	m := makeMap(1000000)
 	b.ReportAllocs()

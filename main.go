@@ -1,4 +1,4 @@
-package gokeys
+package gomapkeys
 
 import (
 	"maps"

@@ -1,4 +1,4 @@
-module go-keys
+module go-map-keys
 
 go 1.25.3
 
